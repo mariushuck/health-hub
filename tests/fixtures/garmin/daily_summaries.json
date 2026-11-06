@@ -1,0 +1,31 @@
+{
+  "data": [
+    {
+      "calendarDate": "2026-11-04",
+      "includesWellnessData": false,
+      "includesActivityData": false,
+      "movement": { "steps": { "goal": 8000, "value": 0, "distanceInMeters": 0 } },
+      "heartRate": { "restingValue": 0 },
+      "stress": { "avgLevel": 0 },
+      "bodyBattery": { "minValue": 0, "maxValue": 0 }
+    },
+    {
+      "calendarDate": "2026-11-05",
+      "source": "garmin",
+      "includesWellnessData": true,
+      "includesActivityData": true,
+      "movement": { "steps": { "goal": 8000, "value": 11234, "distanceInMeters": 8800.5 } },
+      "heartRate": { "minValue": 41, "maxValue": 151, "restingValue": 41 },
+      "stress": { "avgLevel": 27, "maxLevel": 88, "qualifier": "balanced" },
+      "bodyBattery": { "minValue": 18, "maxValue": 87, "chargedValue": 60, "drainedValue": 58 }
+    },
+    {
+      "calendarDate": "2026-11-06",
+      "source": "garmin",
+      "includesWellnessData": true,
+      "includesActivityData": false,
+      "movement": { "steps": { "goal": 8000, "value": 0, "distanceInMeters": 0 } },
+      "stress": { "avgLevel": -1 }
+    }
+  ]
+}

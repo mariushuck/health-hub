@@ -1,0 +1,12 @@
+{
+  "calendarDate": { "date": "2026-11-05T00:00:00.000+0000", "localDate": "2026-11-05" },
+  "maxHeartRate": 151,
+  "minHeartRate": 41,
+  "restingHeartRate": 46,
+  "lastSevenDaysAvgRestingHeartRate": 47,
+  "heartRateValueDescriptors": [
+    { "index": 0, "key": "timestamp" },
+    { "index": 1, "key": "heartrate" }
+  ],
+  "heartRateValues": [[1793923200000, 52], [1793923320000, 50]]
+}

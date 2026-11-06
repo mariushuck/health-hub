@@ -1,0 +1,25 @@
+[
+  {
+    "activityId": 900002,
+    "activityName": "Lauf",
+    "startTimeLocal": "2026-11-05 18:02:11",
+    "startTimeGMT": "2026-11-05 17:02:11",
+    "activityType": { "typeId": 1, "typeKey": "running", "parentTypeId": 17 },
+    "distance": 8012.4,
+    "duration": 2710.5,
+    "averageHR": 148.0,
+    "maxHR": 171.0,
+    "aerobicTrainingEffect": 3.4,
+    "anaerobicTrainingEffect": 0.6,
+    "activityTrainingLoad": 112.3
+  },
+  {
+    "activityId": 900001,
+    "activityName": "Krafttraining",
+    "startTimeLocal": "2026-11-04 20:15:00",
+    "startTimeGMT": "2026-11-04 19:15:00",
+    "activityType": { "typeId": 13, "typeKey": "strength_training", "parentTypeId": 17 },
+    "duration": 3600.0,
+    "averageHR": 104.0
+  }
+]

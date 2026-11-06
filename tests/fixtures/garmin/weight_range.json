@@ -1,0 +1,30 @@
+{
+  "dailyWeightSummaries": [
+    {
+      "summaryDate": "2026-11-05",
+      "numOfWeightEntries": 2,
+      "minWeight": 81.2,
+      "maxWeight": 81.9,
+      "latestWeight": {
+        "calendarDate": "2026-11-05",
+        "weight": 81.2,
+        "bodyFat": 17.4,
+        "muscleMass": 37100,
+        "timestampGMT": "2026-11-05T06:30:00.000+0000"
+      },
+      "allWeightMetrics": []
+    },
+    {
+      "summaryDate": "2026-11-06",
+      "numOfWeightEntries": 1,
+      "latestWeight": {
+        "calendarDate": "2026-11-06",
+        "weight": 81100.0,
+        "bodyFat": null,
+        "muscleMass": 0
+      },
+      "allWeightMetrics": []
+    }
+  ],
+  "totalAverage": { "weight": 81.15 }
+}
