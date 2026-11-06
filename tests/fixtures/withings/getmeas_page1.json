@@ -1,0 +1,35 @@
+{
+  "status": 0,
+  "body": {
+    "updatetime": "1794000000",
+    "timezone": "Europe/Berlin",
+    "more": 1,
+    "offset": 2,
+    "measuregrps": [
+      {
+        "grpid": 11,
+        "attrib": 0,
+        "date": 1793860200,
+        "created": 1793860210,
+        "modified": 1793860210,
+        "category": 1,
+        "measures": [
+          { "value": 82350, "type": 1, "unit": -3 },
+          { "value": 182, "type": 6, "unit": -1 },
+          { "value": 3700, "type": 76, "unit": -2 }
+        ]
+      },
+      {
+        "grpid": 12,
+        "attrib": 8,
+        "date": 1793900000,
+        "created": 1793900010,
+        "modified": 1793900010,
+        "category": 1,
+        "measures": [
+          { "value": 8200, "type": 1, "unit": -2 }
+        ]
+      }
+    ]
+  }
+}
