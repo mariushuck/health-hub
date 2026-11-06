@@ -1,0 +1,11 @@
+# PERSON=marius docker compose -p hub-marius up -d
+services:
+  hub:
+    build: .
+    image: health-hub:latest
+    platform: linux/arm64
+    init: true
+    env_file: .env.${PERSON:?PERSON setzen, z.B. PERSON=marius}
+    volumes:
+      - ./data/${PERSON:?PERSON setzen, z.B. PERSON=marius}:/data
+    restart: unless-stopped

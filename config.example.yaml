@@ -1,0 +1,24 @@
+# Kopieren nach data/<person>/config.yaml
+timezone: Europe/Berlin
+
+# Zweite Instanz 10 Minuten versetzt eintragen.
+sync_times: ["08:45", "13:00", "21:00"]
+
+# Je Kennzahl gewinnt die erste Quelle, die an dem Tag Daten hat.
+# Eine Kennzahl ohne Eintrag bleibt leer. Nur genannte Konten werden abgefragt:
+# Ohne Withings-Waage steht hier nirgends withings, dann braucht es auch keinen Token.
+sources:
+  sleep: [garmin]
+  hrv: [garmin]
+  resting_hr: [garmin]
+  body_battery: [garmin]
+  stress: [garmin]
+  steps: [garmin]
+  body: [withings, garmin]
+  activities: [garmin]
+
+# Ab Phase 2 und 3, der Sync liest diese Werte nicht:
+report_time: "09:00"
+theme: dark
+training_plan: "Di Push, Mi Pull, Do Legs, ein Tag am Wochenende"
+goal: "Hyrox am YYYY-MM-DD"
